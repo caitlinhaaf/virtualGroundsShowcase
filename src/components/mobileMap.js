@@ -47,7 +47,7 @@ const MobileMap = ({ siteTitle }) => (
       <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
         <div>
             <h3>Monika Lemke</h3>
-            <p>Proposal for the Commons + Space</p>
+            <p>Proposal for the Commons Space</p>
         </div>
         <Monika />
       </div>

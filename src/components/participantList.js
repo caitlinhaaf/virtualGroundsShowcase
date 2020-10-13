@@ -55,7 +55,7 @@ const ParticipantList = () => (
 
             <li className={componentStyles.disabled}>
                 <h3>Monika Lemke</h3>
-                <p>Proposal for the Commons + Space</p>
+                <p>Proposal for the Commons Space</p>
             </li>
 
             <li className={componentStyles.disabled}>

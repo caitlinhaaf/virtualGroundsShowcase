@@ -189,7 +189,7 @@ const MapGrid2 = () => (
                         C743,333.4,733.1,343.3,721,343.3z"/>
                     <text transform="matrix(1 0 0 1 534.3536 256.3773)" className={componentStyles.textBold}>Monika</text>
                     <rect x="536.2" y="274.9" style={{fill: `none`}} width="190" height="56.6"/>
-                    <text transform="matrix(1 0 0 1 536.2252 286.8501)"><tspan x="0" y="0"  className={componentStyles.text}>Proposal for the </tspan><tspan x="0" y="19.2" className={componentStyles.text}>Commons + Space</tspan></text>
+                    <text transform="matrix(1 0 0 1 536.2252 286.8501)"><tspan x="0" y="0"  className={componentStyles.text}>Proposal for the </tspan><tspan x="0" y="19.2" className={componentStyles.text}>Commons Space</tspan></text>
                 </g>
             </g>
         </g>
