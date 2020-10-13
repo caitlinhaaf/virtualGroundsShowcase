@@ -185,18 +185,17 @@ const ParticipantsGrid = () => {
                 </div>
             </button>
 
-            {/* <button 
-                id="camila" 
-                className={activePerson==="camila" ? `${componentStyles.tile} ${componentStyles.active}`: componentStyles.tile} 
+            {/* <div className={ClassNames(componentStyles.solid, "orangeBody")}></div> */}
+            <button 
+                id="shaina" 
+                className={activePerson==="shaina" ? `${componentStyles.tile} ${componentStyles.active}`: componentStyles.tile} 
                 type="button" 
-                onClick={() => tileClick("camila")}>
-                <Camila/>
+                onClick={() => tileClick("shaina", "right")}>
+                <Anonymous />
                 <div className={componentStyles.tileTitle}>
-                    <h2>Camila</h2>
+                    <h2>Shaina</h2>
                 </div>
-            </button> */}
-
-            <div className={ClassNames(componentStyles.solid, "orangeBody")}></div>
+            </button>
 
             <button 
                 id="laurence" 
@@ -209,7 +208,6 @@ const ParticipantsGrid = () => {
                 </div>
             </button>
 
-
             <button 
                 id="milan" 
                 className={activePerson==="milan" ? `${componentStyles.tile} ${componentStyles.active}`: componentStyles.tile} 
@@ -220,8 +218,6 @@ const ParticipantsGrid = () => {
                     <h2>Milan</h2>
                 </div>
             </button>
-
-            {/* <div className="greenBody"></div> */}
 
             <button 
                 id="monika" 

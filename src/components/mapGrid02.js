@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import ClassNames from 'classnames'
 
 import componentStyles from "./mapGrid.module.scss"
@@ -189,7 +189,7 @@ const MapGrid2 = () => (
                         C743,333.4,733.1,343.3,721,343.3z"/>
                     <text transform="matrix(1 0 0 1 534.3536 256.3773)" className={componentStyles.textBold}>Monika</text>
                     <rect x="536.2" y="274.9" style={{fill: `none`}} width="190" height="56.6"/>
-                    <text transform="matrix(1 0 0 1 536.2252 286.8501)"><tspan x="0" y="0"  className={componentStyles.text}>&apos;Proposal for the </tspan><tspan x="0" y="19.2" className={componentStyles.text}>Commons + Space&apos;</tspan></text>
+                    <text transform="matrix(1 0 0 1 536.2252 286.8501)"><tspan x="0" y="0"  className={componentStyles.text}>Proposal for the </tspan><tspan x="0" y="19.2" className={componentStyles.text}>Commons + Space</tspan></text>
                 </g>
             </g>
         </g>
@@ -228,12 +228,12 @@ const MapGrid2 = () => (
                         C546.6,394.1,536.8,403.9,524.7,403.9z"/>
                     <text transform="matrix(1 0 0 1 338.0069 336)" className={componentStyles.textBold}>Caroline Hill</text>
                     <rect x="339.9" y="352.9" style={{fill: `none`}} width="190" height="34.3"/>
-                    <text transform="matrix(1 0 0 1 339.8785 364.8997)" className={componentStyles.text}>The incarcerated city</text>
+                    <text transform="matrix(1 0 0 1 339.8785 364.8997)" className={componentStyles.text}>The Incarcerated City</text>
                 </g>       
             </g>
         </g>
         
-        <Link to="/" className={componentStyles.hoverIcon}>           
+        <a href="https://www.lena.virtualgrounds.zone/" className={componentStyles.hoverIcon}>           
             <g id="Lena">
             <g>
                 <g id="ELEMENTS_3_">
@@ -279,7 +279,7 @@ const MapGrid2 = () => (
             </g>
 
         </g>
-        </Link>
+        </a>
 
         <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Amanda">
@@ -436,7 +436,7 @@ const MapGrid2 = () => (
         </g>
         </g>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <a href="https://www.milan.virtualgrounds.zone/" className={componentStyles.hoverIcon}>
             <g id="Milan">
             <g>
                 <g id="ELEMENTS_4_">
@@ -490,15 +490,18 @@ const MapGrid2 = () => (
             </g>
             
             <g id="tooltip_7_" className={componentStyles.toolTipText}>
-                <path style={{fill: `#3E7172`}} d="M1237.9,583.4h-192.3c-12.1,0-22-9.8-22-22v-68c0-12.1,9.8-22,22-22h192.3c12.1,0,22,9.8,22,22v68
-                    C1259.9,573.6,1250,583.4,1237.9,583.4z"/>
-                <text transform="matrix(1 0 0 1 1051.2633 518.6976)" className={componentStyles.textBold}>Milan Gokhale</text>
+                <path style={{fill: `#3E7172`}} d="M1237.9,583.4h-192.3c-12.1,0-22-9.8-22-22V446.3c0-12.1,9.8-22,22-22h192.3c12.1,0,22,9.8,22,22
+                    v115.1C1259.9,573.6,1250,583.4,1237.9,583.4z"/>
+                <text transform="matrix(1 0 0 1 1051.2633 466.0998)" className={componentStyles.textBold}>Milan Gokhale</text>
                 <rect x="1053.1" y="536.9" style={{fill: `none`}} width="190" height="26.4"/>
-                <text transform="matrix(1 0 0 1 1053.135 548.8734)" className={componentStyles.text}>Model Minority Report</text>
+                <text transform="matrix(1 0 0 1 1053.135 496.4004)" className={componentStyles.text}>It’s Time to Reject the </text>
+                <text transform="matrix(1 0 0 1 1053.135 515.6004)" className={componentStyles.text}>Myth of Multiculturalism </text>
+                <text transform="matrix(1 0 0 1 1053.135 534.8004)" className={componentStyles.text}>that Canada Uses to </text>
+                <text transform="matrix(1 0 0 1 1053.135 554.0004)" className={componentStyles.text}>Cover Up Racism</text>
             </g>
        
         </g>
-        </Link>
+        </a>
 
         <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Laura">

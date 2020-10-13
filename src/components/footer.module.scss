@@ -15,6 +15,7 @@
         li{
             display: block;
             flex: auto 1 1;
+            max-width: 16rem;
 
             &.med{
                 max-width: 13rem;

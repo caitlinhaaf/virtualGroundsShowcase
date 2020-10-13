@@ -30,7 +30,7 @@
     },
     "caroline":{
         "name": "Caroline Hill",
-        "projectName": "The incarcerated city",
+        "projectName": "The Incarcerated City",
         "bio": "Caroline is a Master’s student in the Department of Geography at York University. Her thesis examines residents’ perceptions of and experiences with policing at the Atkinson Housing Co-op in Toronto. As a critical urban scholar, she is engaged in spatial theories, critical race theory, Black geographies and socio-legal geographies. Prior to graduate school, Caroline worked at the Canadian Civil Liberties Association. She helped develop and oversee public engagement campaigns and constitutional challenges on issues including solitary confinement, national security, the right to protest, police carding and racial profiling, and privacy and digital security. Caroline received her Bachelor of Social Sciences in Criminology and Communications from the University of Ottawa. Caroline is passionate about staying current on urban and cultural issues, trends in public art and design and creative placemaking initiatives. She has photographed graffiti and street art in communities throughout North America and Europe, documenting expressions of belonging and exclusion in public spaces.",
         "contact": [
             {
@@ -174,7 +174,7 @@
     },
     "sara":{
         "name": "Sara Kay Maston",
-        "projectName": "Worm’s Eye View / “worm net” / Virtual Shovel",
+        "projectName": "Worm’s Eye View",
         "bio": "Sara Kay Maston is an interdisciplinary artist who explores the vantage point of animals such as insects, single-celled organisms, domestic horses, birds, and rodents. Often taking the form of installation and painting, Maston’s work articulates parallel lifeworlds that are indicative of a distant ancestor’s sense of physicality or distinct rhythm of nature. Maston holds an MFA from York University and is currently pursuing a degree in Information Science at U of T with a specialization in Environmental Studies that focuses on sustainable methods of archiving and mediating ephemeral nonhuman animal knowledge.",
         "contact": [
             {
@@ -186,6 +186,18 @@
                 "name": "insta",
                 "linkText": "@malafax", 
                 "link": "https://www.instagram.com/malafax/"
+            }
+        ]
+    },
+    "shaina":{
+        "name": "Shaina Agbayani",
+        "projectName": "Digital Dambana",
+        "bio": "Sha is a trans-disciplinary artist activating creative rituals of healing through the living arts.  Her creations honour the land as primordial canvas, the body as medium, and spirit as technology. You can find her work at www.shaina-agbayani.com.",
+        "contact": [
+            {
+                "name": "website",
+                "linkText": "www.shaina-agbayani.com", 
+                "link": "https://www.shaina-agbayani.com/"
             }
         ]
     }

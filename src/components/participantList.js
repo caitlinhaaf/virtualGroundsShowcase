@@ -20,13 +20,8 @@ const ParticipantList = () => (
 
             <li className={componentStyles.disabled}>
                 <h3>Caroline Hill </h3>
-                <p>The incarcerated city</p>
+                <p>The Incarcerated City</p>
             </li>
-
-            {/* <li>
-                <h3>Camila Diaz-Varela</h3>
-                <p>Psst… Pass it On - an Audio Story on Digital Technology and Activism in the past, present, and possible future </p>
-            </li> */}
 
             <li className={componentStyles.disabled}>
                 <h3>Helen Chen</h3>
@@ -35,7 +30,7 @@ const ParticipantList = () => (
 
             <li className={componentStyles.disabled}>
                 <h3>Laura Nelson Hamilton </h3>
-                <p>Imagining a Digital Public and new forms of public goods through creative engagement</p>
+                <p>A Letter to My Niece, Describing the World that Could Be</p>
             </li>
 
             <li className={componentStyles.disabled}>
@@ -45,22 +40,22 @@ const ParticipantList = () => (
 
             <li>
                 <h3>Lena Phillips</h3>
-                <a href="">Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse</a>
+                <a href="https://www.lena.virtualgrounds.zone/">Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse</a>
             </li>
 
             <li className={componentStyles.disabled}>
                 <h3>Marie Sotto</h3>
-                <p>Toronto Stories</p>
+                <p>Scarborough Always</p>
             </li>
 
             <li>
                 <h3>Milan Gokhale</h3>
-                <a href="">The Male Consent Project</a>
+                <a href="https://www.milan.virtualgrounds.zone/">It's Time to Reject the Myth of Multiculturalism that Canada Uses to Cover Up Racism</a>
             </li>
 
             <li className={componentStyles.disabled}>
                 <h3>Monika Lemke</h3>
-                <p>'Proposal for the Commons + Space'</p>
+                <p>Proposal for the Commons + Space</p>
             </li>
 
             <li className={componentStyles.disabled}>
@@ -70,7 +65,7 @@ const ParticipantList = () => (
 
             <li className={componentStyles.disabled}>
                 <h3>Sara Kay Maston Low</h3>
-                <p>Worm’s Eye View / “worm net” / Virtual Shovel</p>
+                <p>Worm’s Eye View</p>
             </li>
 
             <li className={componentStyles.disabled}>

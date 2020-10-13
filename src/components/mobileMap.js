@@ -25,11 +25,10 @@ const MobileMap = ({ siteTitle }) => (
   <section className={componentStyles.container}>
 
     <p style={{display: `block`, margin: `2rem`}}>
-        Virtual Grounds is a 2-part training and research initiative that considers how we navigate the future, protect our virtual selves, and shape digital landscapes. 
-        <br/><br/>
-        Over the course of 11 months, we will survey how technology continues to grow and impact our lives in different ways through a series of workshops led by practicing creative technologists, scholars, and artists.
-        <br/><br/>
-        The content and research created will then be compiled into a transmedia publication, which will be distributed publicly to all communities to use and interpret.
+      Virtual Grounds is a one-year, training and research initiative hosted by the Digital Justice Lab and Trinity Square Video. Over the course of the year, the participants explored how technology continues to grow and impact our lives in different ways through a series of workshops led by practicing creative technologists, scholars, and artists. In the second half of the program, each participant pursued an independent project to explore how they navigate the future, protect their virtual selves, and shape digital landscapes.  
+    </p>
+    <p>
+      This website features the final products from the program. Follow us on our Twitter <a href="https://twitter.com/digitaljustlab">Twitter</a> for more details and upcoming events! 
     </p>
 
 
@@ -48,7 +47,7 @@ const MobileMap = ({ siteTitle }) => (
       <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
         <div>
             <h3>Monika Lemke</h3>
-            <p>'Proposal for the Commons + Space'</p>
+            <p>Proposal for the Commons + Space</p>
         </div>
         <Monika />
       </div>
@@ -58,7 +57,7 @@ const MobileMap = ({ siteTitle }) => (
       <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
         <div>
             <h3>Caroline Hill</h3>
-            <p>The incarcerated city</p>
+            <p>The Incarcerated City</p>
         </div>
         <Caroline />
       </div>
@@ -82,7 +81,7 @@ const MobileMap = ({ siteTitle }) => (
         <Lena />
         <div>
             <h3>Lena Phillips</h3>
-            <a href="">Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse</a>
+            <a href="https://www.lena.virtualgrounds.zone/">Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse</a>
         </div>
       </div>
 
@@ -104,7 +103,7 @@ const MobileMap = ({ siteTitle }) => (
       <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
         <div>
             <h3>Marie Sotto</h3>
-            <p>Toronto Stories</p>
+            <p>Scarborough Always</p>
         </div>
         <Marie />
       </div>
@@ -127,7 +126,7 @@ const MobileMap = ({ siteTitle }) => (
         <Laura />
         <div>
             <h3>Laura Nelson Hamilton</h3>
-            <p>Imagining a Digital Public and new forms of public goods through creative engagement</p>
+            <p>A Letter to My Niece, Describing the World that Could Be</p>
         </div>
       </div>
 
@@ -147,7 +146,7 @@ const MobileMap = ({ siteTitle }) => (
         <Milan />
         <div>
             <h3>Milan Gokhale</h3>
-            <a href="">The Male Consent Project</a>
+            <a href="https://www.milan.virtualgrounds.zone/">Male Consent Project to It’s Time to Reject the Myth of Multiculturalism that Canada Uses to Cover Up Racism</a>
         </div>
       </div>
 
@@ -158,7 +157,7 @@ const MobileMap = ({ siteTitle }) => (
       <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
         <div>
             <h3>Sara Kay Maston Low</h3>
-            <p>Worm’s Eye View / “worm net” / Virtual Shovel</p>
+            <p>Worm’s Eye View</p>
         </div>
         <Sara />
       </div>
