@@ -1,0 +1,192 @@
+{
+    "amandaGG":{
+        "name": "Amanda Gutiérrez Gomes",
+        "projectName": "With You in Distance (Contigo a la Distancia)",
+        "bio":"Amanda Gutiérrez Gomes is a Cuban / Brazilian independent Filmmaker and Multimedia Producer who holds a Bachelor's degree in Media and Film Studies from Senac University in Sao Paulo, Brazil. Her work involves projects within multiple practices including features and short films, documentaries, series and multi-media installations. Galleria Presidente, her first short-film as a Director, was exhibited in more than twenty-five festivals and won the “People's Choice Award” at São Paulo International Short Film Festival. She wrote the documentary Smile, You’re on Camera, winner of the “Best Direction Award at RECine. Currently, she is living in Toronto and developing research about digital access in Cuba, as one of the participants of the Virtual Grounds program (promoted by Trinity Square Video and Digital Justice Lab).",
+        "contact": [
+            {
+                "name": "insta",
+                "linkText": "@gutierrez_gomes", 
+                "link": "https://www.instagram.com/gutierrez_gomes/"
+            }
+        ]
+    },
+    "amandaLow":{
+        "name": "Amanda Low",
+        "projectName": "Moving Without a Trace (When Everything is being Tracked)",
+        "bio": "Amanda Low is a new media artist, curator, and arts programmer, based in Mississauga. She graduated from OCAD U’s Expanded Animation program, where she did not animate anything and instead became interested in new media art. She makes web art, and animates occasionally. Her work playfully revolves around internet phenomenon. Amanda has curated exhibitions at Xpace Cultural Centre, InterAccess, and at the Harbourfront Centre with DesignTO festival. She was a finalist for the 2017 Emerging Digital Artist Award.",
+        "contact": [
+            {
+                "name": "website",
+                "linkText": "www.amandalow.com", 
+                "link": "http://www.amandalow.com/"
+            },
+            {
+                "name": "insta",
+                "linkText": "@interrabang", 
+                "link": "https://www.instagram.com/interrabang/"
+            }
+        ]
+    },
+    "caroline":{
+        "name": "Caroline Hill",
+        "projectName": "The incarcerated city",
+        "bio": "Caroline is a Master’s student in the Department of Geography at York University. Her thesis examines residents’ perceptions of and experiences with policing at the Atkinson Housing Co-op in Toronto. As a critical urban scholar, she is engaged in spatial theories, critical race theory, Black geographies and socio-legal geographies. Prior to graduate school, Caroline worked at the Canadian Civil Liberties Association. She helped develop and oversee public engagement campaigns and constitutional challenges on issues including solitary confinement, national security, the right to protest, police carding and racial profiling, and privacy and digital security. Caroline received her Bachelor of Social Sciences in Criminology and Communications from the University of Ottawa. Caroline is passionate about staying current on urban and cultural issues, trends in public art and design and creative placemaking initiatives. She has photographed graffiti and street art in communities throughout North America and Europe, documenting expressions of belonging and exclusion in public spaces.",
+        "contact": [
+            {
+                "name": "insta",
+                "linkText": "@bluehilllz", 
+                "link": "https://www.instagram.com/bluehilllz/"
+            },
+            {
+                "name": "twitter",
+                "linkText": "@carohilll", 
+                "link": "https://twitter.com/carohilll"
+            }
+        ]
+    },
+    "helen": {
+        "name": "Helen Chen",
+        "projectName": "",
+        "bio": "Helen Chen is a Chinese-Canadian new media artist and graphic designer, currently working on her BFA in New Media at Ryerson University. In the last 3 years, she has worked at numerous startups to help solve a range of social good problems in the fields of nonprofit data collection, fashion sustainability, and most recently, the intersection of public health and art. Having a foot in various fields has helped her appreciate the benefits of entrepreneurship, but also be extremely critical of what values are forgotten when we apply an optimizing, entrepreneurial lens to everyday life, which is the focus of her Virtual Grounds research.<br/><br/>Her current interests beyond Virtual Grounds include sustainable, ethical methods of local data collection, as well as deep diving into the history of everyday technologies. In her spare time, she can be found playing endless hours of Stardew Valley, hiking, and wondering just how many note-taking apps the tech industry can fund.",
+        "contact": [
+            {
+                "name": "insta",
+                "linkText": "@helen.ca", 
+                "link": "https://www.instagram.com/helen.ca/"
+            }
+        ]
+    },
+    "laura":{
+        "name": "Laura Nelson-Hamilton",
+        "projectName": "A Letter to My Niece, Describing the World that Could Be",
+        "bio": "Laura Nelson-Hamilton is a public servant who has focused on poverty reduction and digital transformation. She centres empathy in her work and practices human-centered design. When she’s not at work, she enjoys reading and creative writing, getting outside, and travelling. She generally believes the world can change and that we have a unique opportunity now to focus on how we want to rebuild.",
+        "contact": [
+            {
+                "name": "twitter",
+                "linkText": "@LozNH",
+                "link": "https://twitter.com/LozNH"
+            },
+            {
+                "name": "insta",
+                "linkText": "@Loz_NH", 
+                "link": "https://www.instagram.com/loz_nh/"
+            },
+            {
+                "name": "facebook", 
+                "linkText": "Laura Susann",
+                "link": "https://www.facebook.com/laura.susann"
+            },
+            {
+                "name": "linkedIn",
+                "linkText": "Laura Nelson-Hamilton", 
+                "link": "Laura Nelson-Hamilton"
+            } 
+        ]
+    },
+    "laurence": {
+        "name": "Laurence Butet-Roch",
+        "projectName": "Slow net toolkit",
+        "bio": "Laurence Butet-Roch is a photographer, writer and educator developing creative strategies to address systemic environmental racism. In partnership with the Aamjiwnaang Environment Committee, Virtual Aamjiwnaang: Indigenous Interactive Storytelling identified digital interactive strategies for the community to tell their stories online in ways that honour their knowledge-sharing protocols. The lessons learned also served to co-design, with Dr. Sarah Marie Wiebe, the Mixed Media Storytelling approach for Reimagining Attawapiskat, which exposes media biases by inviting community members to record their own narratives. Now pursuing a PhD in Environmental Studies at York University, her research unsettles mainstream representations of environmental contamination in Canada through participatory visual discourse analysis and collaborative photographic approaches.",
+        "contact": [
+            {
+                "name": "insta",
+                "linkText": "@lbutetroch", 
+                "link": "https://www.instagram.com/lbutetroch/"
+            }, 
+            {
+                "name": "website",
+                "linkText": "lbrphoto.ca/", 
+                "link": "https://lbrphoto.ca/"
+            }
+        ]
+    },
+    "lena": {
+        "name": "Lena Philips",
+        "projectName": "Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse",
+        "bio": "Lena (she/her) is a critical urbanist with a background in design justice, participatory research, and program development. She currently works at the intersection of equity and philanthropy supporting grassroots and systems change work being led by-and-for Black and Indigenous communities. She is also a Research Assistant for Design Wo/ManifesT.O., a participatory action research project based at OCAD University exploring placemaking through creative practice. Her Virtual Grounds project delves into the design of just urban futures as conceived by Black peoples. Lena has a BA from the University of Toronto and an MSc Urban Development Planning from The Bartlett, University College London. Her interests lie in applying African/Black/Afro-diasporic urbanisms and epistemologies as a means to critically interrogate dominant Northern/Western theories of space. Her practice is firmly rooted in intersectional, feminist, transnational and anti-racist frameworks."
+    },
+    "marie":{
+        "name": "Marie Sotto",
+        "projectName": "Scarborough Always",
+        "bio": "Marie Sotto is a Filipinx futurist, art witch and game changer. A dynamic community catalyst, Marie has had ten years of experience in arts programming, arts leadership and cultural strategy. As an independent artist, Marie has previously exhibited work at Artscape Youngplace, The Gladstone Hotel and The Harbourfront Center. This year Marie completed the MIGRATION and OPEN digital art residencies with Ukai Projects and the Virtual Grounds Research and Training Initiative Program. Marie welcomes our robot overlords.",
+        "contact": [
+            {
+                "name": "website",
+                "linkText": "cargocollective.com/mariesotto", 
+                "link": "https://cargocollective.com/mariesotto"
+            },
+            {
+                "name": "website", 
+                "linkText": "momentsfade.wixsite.com/scarboroughalways",
+                "link": "https://momentsfade.wixsite.com/scarboroughalways"
+            },
+            {
+                "name": "insta",
+                "linkText": "@lbutetroch", 
+                "link": "https://www.instagram.com/lbutetroch/"
+            }
+        ]
+    },
+    "milan": {
+        "name": "Milan Gokhale",
+        "projectName": "Model Minority Report",
+        "bio": "Milan Gokhale is an Indo-Canadian, Toronto-based tech worker and writer. For the last fifteen years, he has delivered technology systems for retail, media and non-profit sectors. He writes independently as a freelance essayist and poet. He has been quoted in the New York Times, Business Insider, CBC Radio-Canada and several Toronto based media outlets. Milan completed software engineering and MBA programs. He speaks English, French and Marathi. He is learning Hindi with the help of his wife and their daughter.",
+        "contact": [
+            {
+                "name": "twitter",
+                "linkText": "@milang", 
+                "link": "https://twitter.com/milang"
+            }, 
+            {
+                "name": "medium",
+                "linkText": "@milang", 
+                "link": "https://medium.com/@milang"
+            }
+        ]
+    },
+    "monika": {
+        "name": "Monika Lemke",
+        "projectName": "Proposal for the Commons + Space",
+        "bio": "Monika Lemke (she/her) is an emerging digital artist, researcher, storyteller, and occasional sculptor. Her work centres around themes of embodiment, capitalism, the everyday life of the state, and democracy. She uses her art practice to explore the visions of emancipatory political projects she finds embedded in social science critiques of modern governance, from slavery and feudalism to the neoliberal white settler colonialism of the present. Her work is deeply informed by her academic training in Socio-legal Studies at Carleton University (BA, MA) and York University (PhD A.B.D.). She is inspired by her local community and Marxist social history."
+    },
+    "roya": {
+        "name": "Roya Del Sol",
+        "projectName": "BLACK_BOX",
+        "bio": "Roya DelSol is Black media artist & independent curator based in Toronto.  Working primarily as a lens-based artist, she aims for her work in all spheres to centre and uplift the experiences Black, queer, and marginalized peoples.  Past photographic work captures Black femme intimacies, strength & joy in hopes of visualizing new, liberated worlds. In other mediums, this envisioning takes shape by means of disruption via institutional critique; or utilizing the subversive qualities of magical realism in imagining Black futures. She sees technology, “magic” and ancestral knowledge as not disparate, but interconnected frameworks to inform each other.",
+        "contact": [
+            {
+                "name": "website",
+                "linkText": "royadelsol.com", 
+                "link": "https://www.royadelsol.com/"
+            }, 
+            {
+                "name": "insta",
+                "linkText": "@royadelsol", 
+                "link": "https://www.instagram.com/royadelsol/"
+            },
+            {
+                "name": "twitter",
+                "linkText": "@royasdigitalego", 
+                "link": "https://twitter.com/royasdigitalego"
+            }
+        ]
+    },
+    "sara":{
+        "name": "Sara Kay Maston",
+        "projectName": "Worm’s Eye View / “worm net” / Virtual Shovel",
+        "bio": "Sara Kay Maston is an interdisciplinary artist who explores the vantage point of animals such as insects, single-celled organisms, domestic horses, birds, and rodents. Often taking the form of installation and painting, Maston’s work articulates parallel lifeworlds that are indicative of a distant ancestor’s sense of physicality or distinct rhythm of nature. Maston holds an MFA from York University and is currently pursuing a degree in Information Science at U of T with a specialization in Environmental Studies that focuses on sustainable methods of archiving and mediating ephemeral nonhuman animal knowledge.",
+        "contact": [
+            {
+                "name": "website",
+                "linkText": "saramaston.com", 
+                "link": "https://saramaston.com/"
+            }, 
+            {
+                "name": "insta",
+                "linkText": "@malafax", 
+                "link": "https://www.instagram.com/malafax/"
+            }
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+/*
+COLOUR PALETTE
+*/
+$green: #307574;
+$dkgreen: #0A3532;
+$yellow: #fcea75;
+$orange: #fd865a;
+$greenGradient: linear-gradient($green, $dkgreen);
+
+$transparentYellow: rgba(252, 234, 117, 0);
+
+$whiteBorder: 5px solid white;
+$greenBorder: 5px solid $green;
+
+/*
+FONT
+*/
+@import url("https://use.typekit.net/vbk0jgb.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+$bodyFont: normal 400 1rem/1em 'Lato', sans-serif;
+$hdrFont: normal 700 1rem/1em 'Lato', sans-serif;
+$hdrLight: normal 400 1rem/1em 'Lato', sans-serif;
+$hdrLarge: normal 700 5rem/1em 'Lato', sans-serif;
+
+/*
+BREAKPOINTS
+*/
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+   @media (max-width: #{$screen-sm-min}) {
+       @content;
+   }
+}
+
+// Medium devices
+@mixin md {
+   @media (max-width: #{$screen-md-min}) {
+       @content;
+   }
+}
+
+// Large devices
+@mixin lg {
+   @media (max-width: #{$screen-lg-min}) {
+       @content;
+   }
+}
+
+// Extra large devices
+@mixin xl {
+   @media (max-width: #{$screen-xl-min}) {
+       @content;
+   }
+}
+
+// Custom devices
+@mixin rwd($screen) {
+   @media (max-width: $screen+'px') {
+       @content;
+   }
+}
+
+// use case:
+// @include sm {
+//         ...
+//     }

@@ -1,0 +1,50 @@
+@import "../variables";
+
+.footer{
+    max-width: 1200px;
+    margin: 2rem auto 0 auto;
+
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0;
+
+        li{
+            display: block;
+            flex: auto 1 1;
+
+            &.med{
+                max-width: 13rem;
+            }
+            &.sm{
+                max-width: 4rem;
+            }
+            &.border{
+                border-right: .15rem solid $green;
+                margin-right: 2rem;
+            }
+
+            @include md{
+                flex: 33% 1 1;
+                justify-content: center;
+
+                &.med{
+                    min-width: 25%;
+                    flex: 25% 1 1;
+                }
+
+                &.border{
+                    border-right: 0;
+                }
+
+            }
+        }
+
+        svg{
+            display: block;
+        }
+    }
+}
