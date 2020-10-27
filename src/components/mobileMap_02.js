@@ -47,7 +47,7 @@ const MobileMap02 = ({ siteTitle }) => (
       <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign)}>
         <div>
             <h3>Monika Lemke</h3>
-            <a href="" target="_blank" rel="noreferrer">Proposal for the Commons Space</a>
+            <a href="http://www.monika.virtualgrounds.zone/" target="_blank" rel="noreferrer">Proposal for the Commons Space</a>
         </div>
         <Monika />
       </div>
@@ -71,7 +71,7 @@ const MobileMap02 = ({ siteTitle }) => (
         <AmandaL />
         <div>
             <h3>Amanda Low</h3>
-            <a href="" target="_blank" rel="noreferrer">Moving Without a Trace (When Everything is being Tracked)</a>
+            <a href="http://www.amandalow.virtualgrounds.zone/" target="_blank" rel="noreferrer">Moving Without a Trace (When Everything is being Tracked)</a>
         </div>
       </div>
 
@@ -167,7 +167,7 @@ const MobileMap02 = ({ siteTitle }) => (
       <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign)}>
         <div>
             <h3>Laurence Butet-Roch</h3>
-            <a href="" target="_blank" rel="noreferrer">Slow Net Toolkit</a>
+            <a href="http://www.laurence.virtualgrounds.zone/" target="_blank" rel="noreferrer">Slow Net Toolkit</a>
         </div>
         <Laurence />
       </div>

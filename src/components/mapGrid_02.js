@@ -167,7 +167,7 @@ const MapGrid02 = () => (
             </g>
         </g>
 
-        <a href="" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}> 
+        <a href="http://www.monika.virtualgrounds.zone/" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}> 
             <g id="Monika">
                 <g>
                     <g id="ELEMENTS_5_">
@@ -281,7 +281,7 @@ const MapGrid02 = () => (
         </g>
         </a>
 
-        <a href="" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>
+        <a href="http://www.amandalow.virtualgrounds.zone/" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>
             <g id="Amanda">
                 <g>
                     <g id="ELEMENTS_1_">
@@ -665,7 +665,7 @@ const MapGrid02 = () => (
             </g>
         </g>
 
-        <a href="" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>
+        <a href="http://www.laurence.virtualgrounds.zone/" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>
             <g id="Laurence">
                 <g>
                     <g id="ELEMENTS_9_">

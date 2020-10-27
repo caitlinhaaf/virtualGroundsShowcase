@@ -10,7 +10,7 @@ const ParticipantList = () => (
 
             <li>
                 <h3>Amanda Low</h3>
-                <a href="" target="_blank" rel="noreferrer">Moving Without a Trace (When Everything is being Tracked)</a>
+                <a href="http://www.amandalow.virtualgrounds.zone/" target="_blank" rel="noreferrer">Moving Without a Trace (When Everything is being Tracked)</a>
             </li>
 
             <li className={componentStyles.disabled}>
@@ -35,7 +35,7 @@ const ParticipantList = () => (
 
             <li>
                 <h3>Laurence Butet-Roch</h3>
-                <a href="" target="_blank" rel="noreferrer">Slow Net Toolkit </a>
+                <a href="http://www.laurence.virtualgrounds.zone/" target="_blank" rel="noreferrer">Slow Net Toolkit </a>
             </li>
 
             <li>
@@ -55,7 +55,7 @@ const ParticipantList = () => (
 
             <li>
                 <h3>Monika Lemke</h3>
-                <a href="" target="_blank" rel="noreferrer">Proposal for the Commons Space</a>
+                <a href="http://www.monika.virtualgrounds.zone/" target="_blank" rel="noreferrer">Proposal for the Commons Space</a>
             </li>
 
             <li className={componentStyles.disabled}>
