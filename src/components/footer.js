@@ -28,13 +28,13 @@ const Footer = () => (
         </li>
 
         <li role="none" className={componentStyles.sm}>
-            <a href="https://twitter.com/digitaljustlab" target="_blank">
+            <a href="https://twitter.com/digitaljustlab" target="_blank" rel="noreferrer">
                 <Twitter />
             </a>
         </li>
 
         <li role="none" className={componentStyles.sm}>
-            <a href="https://www.instagram.com/digitaljustlab/"  target="_blank">
+            <a href="https://www.instagram.com/digitaljustlab/"  target="_blank" rel="noreferrer">
                 <Instagram />
             </a>
         </li>

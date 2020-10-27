@@ -40,7 +40,7 @@ const ParticipantList = () => (
 
             <li>
                 <h3>Lena Phillips</h3>
-                <a href="https://www.lena.virtualgrounds.zone/">Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse</a>
+                <a href="https://www.lena.virtualgrounds.zone/" target="_blank" rel="noreferrer">Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse</a>
             </li>
 
             <li className={componentStyles.disabled}>
@@ -50,7 +50,7 @@ const ParticipantList = () => (
 
             <li>
                 <h3>Milan Gokhale</h3>
-                <a href="https://www.milan.virtualgrounds.zone/">It's Time to Reject the Myth of Multiculturalism that Canada Uses to Cover Up Racism</a>
+                <a href="https://www.milan.virtualgrounds.zone/" target="_blank" rel="noreferrer">It's Time to Reject the Myth of Multiculturalism that Canada Uses to Cover Up Racism</a>
             </li>
 
             <li className={componentStyles.disabled}>

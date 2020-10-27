@@ -9,6 +9,7 @@ const Header = ({ siteTitle }) => (
   <header className={componentStyles.header}>
     <Link
       to="/"
+      tabIndex="0"
       style={{
         color: `white`,
         textDecoration: `none`,
@@ -20,10 +21,10 @@ const Header = ({ siteTitle }) => (
     <nav style={{display: `block`, width: `100%`, maxWidth: `25rem`, height: `auto`, margin: `0 auto`}} >
       <ul>
         <li role="none">
-          <Link to="/participants/">Participants</Link>
+          <Link to="/participants/" tabIndex="0">Participants</Link>
         </li>
         <li role="none">
-          <Link to="/">Projects</Link>
+          <Link to="/" tabIndex="0">Projects</Link>
         </li>
       </ul>
     </nav>

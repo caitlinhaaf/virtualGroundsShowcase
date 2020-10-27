@@ -24,6 +24,13 @@ h1 *, h2 *, h3 *, h4 *, h5 *, h6 *{
     font-weight: 400;
 }
 
+h1{
+    height: 0;
+    overflow: hidden;
+    opacity: .01;
+    margin: 0;
+}
+
 h4{
     margin-bottom: .5em;
 }

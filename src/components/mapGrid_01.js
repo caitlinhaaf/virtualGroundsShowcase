@@ -4,7 +4,7 @@ import ClassNames from 'classnames'
 
 import componentStyles from "./mapGrid.module.scss"
 
-const MapGrid2 = () => (
+const MapGrid01 = () => (
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
         viewBox="0 0 1920 1080" >
         
@@ -233,7 +233,7 @@ const MapGrid2 = () => (
             </g>
         </g>
         
-        <a href="https://www.lena.virtualgrounds.zone/" className={componentStyles.hoverIcon}>           
+        <a href="https://www.lena.virtualgrounds.zone/" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>           
             <g id="Lena">
             <g>
                 <g id="ELEMENTS_3_">
@@ -436,7 +436,7 @@ const MapGrid2 = () => (
         </g>
         </g>
 
-        <a href="https://www.milan.virtualgrounds.zone/" className={componentStyles.hoverIcon}>
+        <a href="https://www.milan.virtualgrounds.zone/" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>
             <g id="Milan">
             <g>
                 <g id="ELEMENTS_4_">
@@ -786,4 +786,4 @@ const MapGrid2 = () => (
     </svg>
 )
 
-export default MapGrid2;
+export default MapGrid01;

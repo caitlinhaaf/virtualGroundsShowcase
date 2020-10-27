@@ -1,10 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import ClassNames from 'classnames'
 
 import componentStyles from "./mapGrid.module.scss"
 
-const MapGrid = () => (
+const MapGrid02 = () => (
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
         viewBox="0 0 1920 1080" >
         
@@ -133,7 +133,7 @@ const MapGrid = () => (
             </g>
         </g>
         
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Helen" >
                 <g>
                     <g id="ELEMENTS_13_">
@@ -165,9 +165,9 @@ const MapGrid = () => (
                     <text transform="matrix(1 0 0 1 192.6719 259.0889)"><tspan x="0" y="0" className={componentStyles.text}>I took a walk, and only </tspan><tspan x="0" y="19.2" className={componentStyles.text}>found places I already </tspan><tspan x="0" y="38.4" className={componentStyles.text}>knew </tspan></text>
                 </g>
             </g>
-        </Link>
+        </g>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <a href="" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}> 
             <g id="Monika">
                 <g>
                     <g id="ELEMENTS_5_">
@@ -189,12 +189,12 @@ const MapGrid = () => (
                         C743,333.4,733.1,343.3,721,343.3z"/>
                     <text transform="matrix(1 0 0 1 534.3536 256.3773)" className={componentStyles.textBold}>Monika</text>
                     <rect x="536.2" y="274.9" style={{fill: `none`}} width="190" height="56.6"/>
-                    <text transform="matrix(1 0 0 1 536.2252 286.8501)"><tspan x="0" y="0"  className={componentStyles.text}>&apos;Proposal for the </tspan><tspan x="0" y="19.2" className={componentStyles.text}>Commons + Space&apos;</tspan></text>
+                    <text transform="matrix(1 0 0 1 536.2252 286.8501)"><tspan x="0" y="0"  className={componentStyles.text}>Proposal for the </tspan><tspan x="0" y="19.2" className={componentStyles.text}>Commons Space</tspan></text>
                 </g>
             </g>
-        </Link>
+        </a>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Caroline">
                 <g>
                     <g id="ELEMENTS_6_">
@@ -228,12 +228,12 @@ const MapGrid = () => (
                         C546.6,394.1,536.8,403.9,524.7,403.9z"/>
                     <text transform="matrix(1 0 0 1 338.0069 336)" className={componentStyles.textBold}>Caroline Hill</text>
                     <rect x="339.9" y="352.9" style={{fill: `none`}} width="190" height="34.3"/>
-                    <text transform="matrix(1 0 0 1 339.8785 364.8997)" className={componentStyles.text}>The incarcerated city</text>
+                    <text transform="matrix(1 0 0 1 339.8785 364.8997)" className={componentStyles.text}>The Incarcerated City</text>
                 </g>       
             </g>
-        </Link>
+        </g>
         
-        <Link to="/" className={componentStyles.hoverIcon}>           
+        <a href="https://www.lena.virtualgrounds.zone/" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>           
             <g id="Lena">
             <g>
                 <g id="ELEMENTS_3_">
@@ -279,47 +279,47 @@ const MapGrid = () => (
             </g>
 
         </g>
-        </Link>
+        </a>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <a href="" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>
             <g id="Amanda">
-            <g>
-                <g id="ELEMENTS_1_">
-                    <path className={componentStyles.st6} d="M1561.6,337.8l78.5,43.5l-78.5,43.5l-75.3-43.5L1561.6,337.8z"/>
-                    <path className={componentStyles.st2} d="M1483,377.1l79.7,46.1l79.8-46.1l-79.8-46.1L1483,377.1z"/>
-                    <path className={componentStyles.st13} d="M1483,383.1l79.8,45.8l0,0l79.8-45.7v-6.1l-79.8,46.1l0,0l-79.7-46.1L1483,383.1z"/>
-                    <path className={componentStyles.st9} d="M1525.8,373.6l35,20.2c1.5,0.8,3.2,0.8,4.7,0l35-20.2c2.2-1.3,3-4.2,1.7-6.4c-0.4-0.7-1-1.3-1.7-1.7
-                        l-35-20.2c-1.5-0.8-3.2-0.8-4.7,0l-35,20.2c-2.3,1.3-3,4.2-1.7,6.4C1524.5,372.6,1525.1,373.2,1525.8,373.6z"/>
-                    <path className={componentStyles.st14} d="M1523.4,377.9l39.7,23.2l39.7-23.2c0-2.9,0-5.8,0-8.7l-39.8,22.5l-39.6-22.5
-                        C1523.4,372.1,1523.4,375,1523.4,377.9z"/>
-                    <path className={componentStyles.st15} d="M1551,366.5c0.2,0.3,4.4,7,12.1,6.8c7.2-0.2,11.1-6.3,11.4-6.8v-24.6H1551V366.5z"/>
-                    <ellipse className={componentStyles.st15} cx="1563.1" cy="324.8" rx="16.6" ry="11.2"/>
-                    <path className={componentStyles.st7} d="M1546.5,339.2c9.2,9.2,24.1,9.2,33.3,0v-13.3c-9.5,8.5-23.8,8.5-33.3,0V339.2z"/>
-                    
-                        <ellipse transform="matrix(0.617 -0.7869 0.7869 0.617 383.9928 1348.2135)" className={componentStyles.st14} cx="1577.2" cy="279.6" rx="46.2" ry="58.3"/>
-                    
-                        <ellipse transform="matrix(0.617 -0.7869 0.7869 0.617 386.5583 1348.7653)" className={componentStyles.st2} cx="1579" cy="277.2" rx="46.2" ry="58.3"/>
-                    <path className={componentStyles.st7} d="M1548.2,311.7l25.7-28.2c39,8,58.6,11.6,58.8,10.8c0.2-0.8-18.9-6.1-57.4-15.8
-                        c-7.9-16.8-15.8-33.6-23.7-50.4l18.4,51.3C1562.8,290.1,1555.5,300.9,1548.2,311.7z"/>
-                    <path className={componentStyles.st7} d="M1551.6,228l41.4,34.6l0,0l-44.8,49.1l49-44.8l0,0l35.6,27.4l-32.4-36.3L1551.6,228z"/>
-                    
-                        <ellipse transform="matrix(0.6368 -0.7711 0.7711 0.6368 384.3287 1329.9932)" className={componentStyles.st15} cx="1603.8" cy="257.1" rx="4.6" ry="6.9"/>
-                    <path className={componentStyles.st7} d="M1594.7,257.3c0.5,5.3,5.3,9.2,10.6,8.7l3.5-4.2c-5.2,0.2-9.8-3.5-10.6-8.7L1594.7,257.3z"/>
+                <g>
+                    <g id="ELEMENTS_1_">
+                        <path className={componentStyles.st6} d="M1561.6,337.8l78.5,43.5l-78.5,43.5l-75.3-43.5L1561.6,337.8z"/>
+                        <path className={componentStyles.st2} d="M1483,377.1l79.7,46.1l79.8-46.1l-79.8-46.1L1483,377.1z"/>
+                        <path className={componentStyles.st13} d="M1483,383.1l79.8,45.8l0,0l79.8-45.7v-6.1l-79.8,46.1l0,0l-79.7-46.1L1483,383.1z"/>
+                        <path className={componentStyles.st9} d="M1525.8,373.6l35,20.2c1.5,0.8,3.2,0.8,4.7,0l35-20.2c2.2-1.3,3-4.2,1.7-6.4c-0.4-0.7-1-1.3-1.7-1.7
+                            l-35-20.2c-1.5-0.8-3.2-0.8-4.7,0l-35,20.2c-2.3,1.3-3,4.2-1.7,6.4C1524.5,372.6,1525.1,373.2,1525.8,373.6z"/>
+                        <path className={componentStyles.st14} d="M1523.4,377.9l39.7,23.2l39.7-23.2c0-2.9,0-5.8,0-8.7l-39.8,22.5l-39.6-22.5
+                            C1523.4,372.1,1523.4,375,1523.4,377.9z"/>
+                        <path className={componentStyles.st15} d="M1551,366.5c0.2,0.3,4.4,7,12.1,6.8c7.2-0.2,11.1-6.3,11.4-6.8v-24.6H1551V366.5z"/>
+                        <ellipse className={componentStyles.st15} cx="1563.1" cy="324.8" rx="16.6" ry="11.2"/>
+                        <path className={componentStyles.st7} d="M1546.5,339.2c9.2,9.2,24.1,9.2,33.3,0v-13.3c-9.5,8.5-23.8,8.5-33.3,0V339.2z"/>
+                        
+                            <ellipse transform="matrix(0.617 -0.7869 0.7869 0.617 383.9928 1348.2135)" className={componentStyles.st14} cx="1577.2" cy="279.6" rx="46.2" ry="58.3"/>
+                        
+                            <ellipse transform="matrix(0.617 -0.7869 0.7869 0.617 386.5583 1348.7653)" className={componentStyles.st2} cx="1579" cy="277.2" rx="46.2" ry="58.3"/>
+                        <path className={componentStyles.st7} d="M1548.2,311.7l25.7-28.2c39,8,58.6,11.6,58.8,10.8c0.2-0.8-18.9-6.1-57.4-15.8
+                            c-7.9-16.8-15.8-33.6-23.7-50.4l18.4,51.3C1562.8,290.1,1555.5,300.9,1548.2,311.7z"/>
+                        <path className={componentStyles.st7} d="M1551.6,228l41.4,34.6l0,0l-44.8,49.1l49-44.8l0,0l35.6,27.4l-32.4-36.3L1551.6,228z"/>
+                        
+                            <ellipse transform="matrix(0.6368 -0.7711 0.7711 0.6368 384.3287 1329.9932)" className={componentStyles.st15} cx="1603.8" cy="257.1" rx="4.6" ry="6.9"/>
+                        <path className={componentStyles.st7} d="M1594.7,257.3c0.5,5.3,5.3,9.2,10.6,8.7l3.5-4.2c-5.2,0.2-9.8-3.5-10.6-8.7L1594.7,257.3z"/>
+                    </g>
+                
+                    <g id="tooltip_9_" className={componentStyles.toolTipText}>
+                        <path style={{fill: `#3E7172`}} d="M1666.7,198.2h-192.3c-12.1,0-22-9.8-22-22V85.3c0-12.1,9.8-22,22-22h192.3c12.1,0,22,9.8,22,22
+                            v90.9C1688.6,188.3,1678.8,198.2,1666.7,198.2z"/>
+                        <text transform="matrix(1 0 0 1 1480.0002 103.4598)" className={componentStyles.textBold}>Amanda Low</text>
+                        <rect x="1481.9" y="121.6"  style={{fill: `none`}} width="190" height="59.6"/>
+                        <text transform="matrix(1 0 0 1 1481.8718 133.6356)"><tspan x="0" y="0" className={componentStyles.text}>Moving Without a Trace </tspan><tspan x="0" y="19.2" className={componentStyles.text}>(When Everything is being </tspan><tspan x="0" y="38.4" className={componentStyles.text}>Tracked)</tspan></text>
+                    </g>
+                
                 </g>
-            
-                <g id="tooltip_9_" className={componentStyles.toolTipText}>
-                    <path style={{fill: `#3E7172`}} d="M1666.7,198.2h-192.3c-12.1,0-22-9.8-22-22V85.3c0-12.1,9.8-22,22-22h192.3c12.1,0,22,9.8,22,22
-                        v90.9C1688.6,188.3,1678.8,198.2,1666.7,198.2z"/>
-                    <text transform="matrix(1 0 0 1 1480.0002 103.4598)" className={componentStyles.textBold}>Amanda Low</text>
-                    <rect x="1481.9" y="121.6"  style={{fill: `none`}} width="190" height="59.6"/>
-                    <text transform="matrix(1 0 0 1 1481.8718 133.6356)"><tspan x="0" y="0" className={componentStyles.text}>Moving Without a Trace </tspan><tspan x="0" y="19.2" className={componentStyles.text}>(When Everything is being </tspan><tspan x="0" y="38.4" className={componentStyles.text}>Tracked)</tspan></text>
-                </g>
-            
             </g>
-        </g>
-        </Link>
+        </a>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Camila">
                 <g>
                     <g id="ELEMENTS_2_">
@@ -390,9 +390,9 @@ const MapGrid = () => (
 
                 </g>
             </g>
-        </Link>
+        </g>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Shaina">
             <g>
                 <g id="ELEMENTS_11_">
@@ -434,9 +434,9 @@ const MapGrid = () => (
             
             </g>
         </g>
-        </Link>
+        </g>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <a href="https://www.milan.virtualgrounds.zone/" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>
             <g id="Milan">
             <g>
                 <g id="ELEMENTS_4_">
@@ -490,17 +490,20 @@ const MapGrid = () => (
             </g>
             
             <g id="tooltip_7_" className={componentStyles.toolTipText}>
-                <path style={{fill: `#3E7172`}} d="M1237.9,583.4h-192.3c-12.1,0-22-9.8-22-22v-68c0-12.1,9.8-22,22-22h192.3c12.1,0,22,9.8,22,22v68
-                    C1259.9,573.6,1250,583.4,1237.9,583.4z"/>
-                <text transform="matrix(1 0 0 1 1051.2633 518.6976)" className={componentStyles.textBold}>Milan Gokhale</text>
+                <path style={{fill: `#3E7172`}} d="M1237.9,583.4h-192.3c-12.1,0-22-9.8-22-22V446.3c0-12.1,9.8-22,22-22h192.3c12.1,0,22,9.8,22,22
+                    v115.1C1259.9,573.6,1250,583.4,1237.9,583.4z"/>
+                <text transform="matrix(1 0 0 1 1051.2633 466.0998)" className={componentStyles.textBold}>Milan Gokhale</text>
                 <rect x="1053.1" y="536.9" style={{fill: `none`}} width="190" height="26.4"/>
-                <text transform="matrix(1 0 0 1 1053.135 548.8734)" className={componentStyles.text}>Model Minority Report</text>
+                <text transform="matrix(1 0 0 1 1053.135 496.4004)" className={componentStyles.text}>It’s Time to Reject the </text>
+                <text transform="matrix(1 0 0 1 1053.135 515.6004)" className={componentStyles.text}>Myth of Multiculturalism </text>
+                <text transform="matrix(1 0 0 1 1053.135 534.8004)" className={componentStyles.text}>that Canada Uses to </text>
+                <text transform="matrix(1 0 0 1 1053.135 554.0004)" className={componentStyles.text}>Cover Up Racism</text>
             </g>
        
         </g>
-        </Link>
+        </a>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Laura">
                 <g>
                     <g id="ELEMENTS_8_">
@@ -575,9 +578,9 @@ const MapGrid = () => (
                 </g>
                 
             </g>
-        </Link>
+        </g>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Amanda_G">
                 <g>
                     <g id="ELEMENTS">
@@ -613,9 +616,9 @@ const MapGrid = () => (
                     </text>
                 </g>
             </g>
-        </Link>
+        </g>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Sara">
                 <g>
                     <g id="ELEMENTS_10_">
@@ -660,9 +663,9 @@ const MapGrid = () => (
                     </text>
                 </g>
             </g>
-        </Link>
+        </g>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <a href="" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>
             <g id="Laurence">
                 <g>
                     <g id="ELEMENTS_9_">
@@ -707,9 +710,9 @@ const MapGrid = () => (
                     <text transform="matrix(1 0 0 1 1381.5358 674.5438)" className={componentStyles.text}>Slow Net Toolkit </text>
                 </g>
             </g>
-        </Link>
+        </a>
 
-        <Link to="/" className={componentStyles.hoverIcon}>
+        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>
             <g id="Roya">
                 <g>
                     <g id="ELEMENTS_7_">
@@ -739,9 +742,9 @@ const MapGrid = () => (
                 </g>
             
             </g>
-        </Link>
+        </g>
 
-        <Link to="/" className={componentStyles.hoverIcon}>            
+        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>            
             <g id="Marie">
             <g>
                 <g id="ELEMENTS_12_">
@@ -778,9 +781,9 @@ const MapGrid = () => (
             
             </g>
         </g>
-        </Link>
+        </g>
 
     </svg>
 )
 
-export default MapGrid;
+export default MapGrid02;

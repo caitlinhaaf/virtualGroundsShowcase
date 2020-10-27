@@ -1,6 +1,5 @@
-import { Link } from "gatsby"
-import ClassNames from "classnames"
 import React from "react"
+import ClassNames from "classnames"
 
 import componentStyles from "./mobileMap.module.scss"
 
@@ -21,17 +20,18 @@ import Sara from "../svgs/mapBlocks/sara.svg"
 import Laurence from "../svgs/mapBlocks/laurence.svg"
 import AmandaG from "../svgs/mapBlocks/amandaG.svg"
 
-const MobileMap = ({ siteTitle }) => (
+const MobileMap02 = ({ siteTitle }) => (
   <section className={componentStyles.container}>
 
-    <p style={{display: `block`, margin: `2rem`}}>
-      Virtual Grounds is a one-year, training and research initiative hosted by the Digital Justice Lab and Trinity Square Video. Over the course of the year, the participants explored how technology continues to grow and impact our lives in different ways through a series of workshops led by practicing creative technologists, scholars, and artists. In the second half of the program, each participant pursued an independent project to explore how they navigate the future, protect their virtual selves, and shape digital landscapes.  
-    </p>
-    <p>
-      This website features the final products from the program. Follow us on our Twitter <a href="https://twitter.com/digitaljustlab">Twitter</a> for more details and upcoming events! 
-    </p>
-
-
+    <div style={{display: `block`, margin: `2rem`}}>
+      <p>
+        Virtual Grounds is a one-year, training and research initiative hosted by the Digital Justice Lab and Trinity Square Video. Over the course of the year, the participants explored how technology continues to grow and impact our lives in different ways through a series of workshops led by practicing creative technologists, scholars, and artists. In the second half of the program, each participant pursued an independent project to explore how they navigate the future, protect their virtual selves, and shape digital landscapes.  
+      </p>
+      <p>
+        This website features the final products from the program. Follow us on our Twitter <a href="https://twitter.com/digitaljustlab" target="_blank" rel="noreferrer">Twitter</a> for more details and upcoming events! 
+      </p>
+    </div>
+    
      <LtoRline style={{width: `calc(100% - 8rem)`, display: `block`, margin: `0 auto`}}/>
 
       <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
@@ -44,10 +44,10 @@ const MobileMap = ({ siteTitle }) => (
 
       <div className={ClassNames(componentStyles.lineRow, componentStyles.rightAlign)}></div>
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
+      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign)}>
         <div>
             <h3>Monika Lemke</h3>
-            <p>Proposal for the Commons Space</p>
+            <a href="" target="_blank" rel="noreferrer">Proposal for the Commons Space</a>
         </div>
         <Monika />
       </div>
@@ -67,11 +67,11 @@ const MobileMap = ({ siteTitle }) => (
 
 
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.disabled)}>
+      <div className={componentStyles.mapRow}>
         <AmandaL />
         <div>
             <h3>Amanda Low</h3>
-            <p>Moving Without a Trace (When Everything is being Tracked)</p>
+            <a href="" target="_blank" rel="noreferrer">Moving Without a Trace (When Everything is being Tracked)</a>
         </div>
       </div>
 
@@ -81,7 +81,7 @@ const MobileMap = ({ siteTitle }) => (
         <Lena />
         <div>
             <h3>Lena Phillips</h3>
-            <a href="https://www.lena.virtualgrounds.zone/">Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse</a>
+            <a href="https://www.lena.virtualgrounds.zone/" target="_blank" rel="noreferrer">Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse</a>
         </div>
       </div>
 
@@ -146,7 +146,7 @@ const MobileMap = ({ siteTitle }) => (
         <Milan />
         <div>
             <h3>Milan Gokhale</h3>
-            <a href="https://www.milan.virtualgrounds.zone/">Male Consent Project to It’s Time to Reject the Myth of Multiculturalism that Canada Uses to Cover Up Racism</a>
+            <a href="https://www.milan.virtualgrounds.zone/" target="_blank" rel="noreferrer">Male Consent Project to It’s Time to Reject the Myth of Multiculturalism that Canada Uses to Cover Up Racism</a>
         </div>
       </div>
 
@@ -164,10 +164,10 @@ const MobileMap = ({ siteTitle }) => (
 
       <div className={ClassNames(componentStyles.lineRow, componentStyles.rightAlign)}></div>
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
+      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign)}>
         <div>
             <h3>Laurence Butet-Roch</h3>
-            <p>Slow Net Toolkit</p>
+            <a href="" target="_blank" rel="noreferrer">Slow Net Toolkit</a>
         </div>
         <Laurence />
       </div>
@@ -175,4 +175,4 @@ const MobileMap = ({ siteTitle }) => (
   </section>
 )
 
-export default MobileMap
+export default MobileMap02
