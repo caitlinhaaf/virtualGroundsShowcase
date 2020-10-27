@@ -22,22 +22,24 @@ const IndexPage = () => (
         Explore the digital city to learn about all virtual grounds projects
       </p>
 
-    <Media queries={{
-          small: "(max-width: 799px)",
-          large: "(min-width: 800px)"
-        }}>
-          {matches => (
-            <>
-              {matches.small && <MobileMap01 />}
-              {matches.large && 
-                <>
-                  <MapGrid01 />
-                  <ParticipantList01 />
-                </>}
-            </>
-          )}
-    </Media>
-
+    <div className="fadeIn">
+      <Media queries={{
+            small: "(max-width: 799px)",
+            large: "(min-width: 800px)"
+          }}>
+            {matches => (
+              <>
+                {matches.small && <MobileMap01 />}
+                {matches.large && 
+                  <>
+                    <MapGrid01 />
+                    <ParticipantList01 />
+                  </>}
+              </>
+            )}
+      </Media>
+    </div>
+    
   </Layout>
 )
 
