@@ -100,10 +100,10 @@ const MobileMap02 = ({ siteTitle }) => (
 
       <div className={ClassNames(componentStyles.lineRow, componentStyles.rightAlign)}></div>
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
+      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign)}>
         <div>
             <h3>Marie Sotto</h3>
-            <p>Scarborough Always</p>
+            <a href="https://momentsfade.wixsite.com/scarboroughalways" target="_blank" rel="noreferrer">Scarborough Always</a>
         </div>
         <Marie />
       </div>

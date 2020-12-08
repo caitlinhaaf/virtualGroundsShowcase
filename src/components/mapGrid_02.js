@@ -848,7 +848,7 @@ const MapGrid02 = () => (
             </g>
         </a>
 
-        <g className={ClassNames(componentStyles.hoverIcon, componentStyles.disabled)}>            
+        <a href="https://momentsfade.wixsite.com/scarboroughalways" target="_blank" rel="noreferrer" className={componentStyles.hoverIcon}>          
             <g id="Marie">
             <g>
                 <g id="ELEMENTS_12_">
@@ -885,7 +885,7 @@ const MapGrid02 = () => (
             
             </g>
         </g>
-        </g>
+        </a>
 
     </svg>
 )

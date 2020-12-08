@@ -43,9 +43,9 @@ const ParticipantList = () => (
                 <a href="https://www.lena.virtualgrounds.zone/" target="_blank" rel="noreferrer">Towards Just Urban Futures: The Little Black Book of Design Prompts to Survive the Urban Apocalypse</a>
             </li>
 
-            <li className={componentStyles.disabled}>
+            <li>
                 <h3>Marie Sotto</h3>
-                <p>Scarborough Always</p>
+                <a href="https://momentsfade.wixsite.com/scarboroughalways" target="_blank" rel="noreferrer">Scarborough Always</a>
             </li>
 
             <li>
