@@ -3,17 +3,17 @@ import ClassNames from 'classnames'
 import componentStyles from "./participantsGrid.module.scss"
 
 import ParticipantTile from "./participantTile"
-import Anonymous from "../svgs/ANONYMOUSv2.svg"
-import Amanda from "../svgs/AMANDA_G.svg"
-import Caroline from "../svgs/CAROLINEv2.svg"
-import Laura from "../svgs/LAURAv2.svg"
-import Laurence from "../svgs/LAURENCEv2.svg"
-import Lena from "../svgs/LENAv2.svg"
-import Marie from "../svgs/MARIEv2.svg"
-import Milan from "../svgs/MILANv2.svg"
-import Monika from "../svgs/MONIKAv2.svg"
-import Roya from "../svgs/ROYAv2.svg"
-import Sara from "../svgs/SARAv2.svg"
+import Anonymous from "../svgs/avatars/ANONYMOUS.svg"
+import Amanda from "../svgs/avatars/AMANDA.svg"
+import Caroline from "../svgs/avatars/CAROLINE.svg"
+import Laura from "../svgs/avatars/LAURA.svg"
+import Laurence from "../svgs/avatars/LAURENCE.svg"
+import Lena from "../svgs/avatars/LENA.svg"
+import Marie from "../svgs/avatars/MARIE.svg"
+import Milan from "../svgs/avatars/MILAN.svg"
+import Monika from "../svgs/avatars/MONIKA.svg"
+import Roya from "../svgs/avatars/ROYA.svg"
+import Sara from "../svgs/avatars/SARA.svg"
 
 import bios from "./participantsBios.json";
 
@@ -200,10 +200,7 @@ const ParticipantsGrid = () => {
                                 {
                                     activeBio.contact.map( contact => (
                                         <li>
-                                            <span>{contact.name}</span>: 
-                                            <a href={contact.link} target="_blank" rel="noreferrer" tabIndex="0">
-                                                {contact.linkText}
-                                            </a>
+                                            <span>{contact.name}</span>: <a href={contact.link} target="_blank" rel="noreferrer" tabIndex="0">{contact.linkText}</a>
                                         </li>
                                     ))
                                 }

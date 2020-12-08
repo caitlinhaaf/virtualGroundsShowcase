@@ -1,5 +1,6 @@
 import React from "react"
-import Media from 'react-media';
+import { useMediaQuery } from 'react-responsive';
+// react-responsive
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,38 +13,33 @@ import MapGrid02 from "../components/mapGrid_02"
 import MobileMap02 from "../components/mobileMap_02"
 import ParticipantList02 from "../components/participantList_02"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
+const IndexPage = () => { 
+  const isMobile = useMediaQuery({ maxWidth: 800 });
 
-      <h1>Virtual Grounds Showcase: Projects</h1>
+  return(
+    <Layout>
+      <SEO title="Home" />
 
-      <p style={{display: `block`, textAlign: `center`, margin: `0 auto`}}>
-        Explore the digital city to learn about all virtual grounds projects
-      </p>
+        <h1>Virtual Grounds Showcase: Projects</h1>
 
-    <div className="fadeIn">
-      <Media queries={{
-            small: "(max-width: 799px)",
-            large: "(min-width: 800px)"
-          }}>
-            {matches => (
-              <>
-                {matches.small && 
-                  <>
-                    <MobileMap02 />
-                  </>}
-                {matches.large && 
-                  <>
-                    <MapGrid02 />
-                    <ParticipantList02 />
-                  </>}
-              </>
-            )}
-      </Media>
-    </div>
-    
-  </Layout>
-)
+        <p style={{display: `block`, textAlign: `center`, margin: `0 auto`}}>
+          Explore the digital city to learn about all virtual grounds projects
+        </p>
+
+      <div className="fadeIn">
+        {isMobile
+        ?
+          <MobileMap02 />
+        :
+          <>
+            <MapGrid02 />
+            <ParticipantList02 />
+          </>
+        }
+      </div>
+      
+    </Layout>
+  )
+}
 
 export default IndexPage

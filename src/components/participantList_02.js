@@ -13,24 +13,24 @@ const ParticipantList = () => (
                 <a href="http://www.amandalow.virtualgrounds.zone/" target="_blank" rel="noreferrer">Moving Without a Trace (When Everything is being Tracked)</a>
             </li>
 
-            <li className={componentStyles.disabled}>
+            <li>
                 <h3>Amanda Gutierrez Gomes</h3>
-                <p>With You in Distance (Contigo a la Distancia)</p>
+                <a href="http://www.amandag.virtualgrounds.zone/" target="_blank" rel="noreferrer">With You in Distance (Contigo a la Distancia)</a>
             </li>
 
-            <li className={componentStyles.disabled}>
+            <li>
                 <h3>Caroline Hill </h3>
-                <p>The Incarcerated City</p>
+                <a href="http://www.caroline.virtualgrounds.zone/" target="_blank" rel="noreferrer">The Incarcerated City</a>
             </li>
 
-            <li className={componentStyles.disabled}>
+            <li>
                 <h3>Helen Chen</h3>
-                <p>I took a walk, and only found places I’ve already known </p>
+                <a href="http://www.helen.virtualgrounds.zone/" target="_blank" rel="noreferrer">I took a walk, and only found places I’ve already known</a>
             </li>
 
-            <li className={componentStyles.disabled}>
+            <li>
                 <h3>Laura Nelson Hamilton </h3>
-                <p>A Letter to My Niece, Describing the World that Could Be</p>
+                <a href="http://www.laura.virtualgrounds.zone/" target="_blank" rel="noreferrer">A Letter to My Niece, Describing the World that Could Be</a>
             </li>
 
             <li>
@@ -58,9 +58,9 @@ const ParticipantList = () => (
                 <a href="http://www.monika.virtualgrounds.zone/" target="_blank" rel="noreferrer">Proposal for the Commons Space</a>
             </li>
 
-            <li className={componentStyles.disabled}>
+            <li>
                 <h3>Roya DelSol</h3>
-                <p>BLACK_BOX</p>
+                <a href="http://www.roya.virtualgrounds.zone/" target="_blank" rel="noreferrer">BLACK_BOX</a>
             </li>
 
             <li className={componentStyles.disabled}>
@@ -68,9 +68,9 @@ const ParticipantList = () => (
                 <p>Worm’s Eye View</p>
             </li>
 
-            <li className={componentStyles.disabled}>
+            <li>
                 <h3>Shaina Agbayani</h3>
-                <p>Digital Dambana</p>
+                <a href="http://www.sha.virtualgrounds.zone/" target="_blank" rel="noreferrer">Digital Dambana</a>
             </li>
 
         </ul>

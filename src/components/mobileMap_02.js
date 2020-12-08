@@ -34,10 +34,10 @@ const MobileMap02 = ({ siteTitle }) => (
     
      <LtoRline style={{width: `calc(100% - 8rem)`, display: `block`, margin: `0 auto`}}/>
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
+      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign)}>
         <div>
             <h3>Helen Chen</h3>
-            <p>I took a walk, and only found places I’ve already known </p>
+            <a href="http://www.helen.virtualgrounds.zone/" target="_blank" rel="noreferrer">I took a walk, and only found places I’ve already known</a>
         </div>
         <Helen />
       </div>
@@ -54,10 +54,10 @@ const MobileMap02 = ({ siteTitle }) => (
 
       <div className={ClassNames(componentStyles.lineRow, componentStyles.rightAlign)}></div>
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
+      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign)}>
         <div>
             <h3>Caroline Hill</h3>
-            <p>The Incarcerated City</p>
+            <a href="http://www.caroline.virtualgrounds.zone/" target="_blank" rel="noreferrer">The Incarcerated City</a>
         </div>
         <Caroline />
       </div>
@@ -90,10 +90,10 @@ const MobileMap02 = ({ siteTitle }) => (
 
 
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
+      <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign)}>
         <div>
             <h3>Roya DelSol</h3>
-            <p>BLACK_BOX</p>
+            <a href="https://www.roya.virtualgrounds.zone/" target="_blank" rel="noreferrer">BLACK_BOX</a>
         </div>
         <Roya />
       </div>
@@ -112,31 +112,31 @@ const MobileMap02 = ({ siteTitle }) => (
 
 
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.disabled)}>
+      <div className={componentStyles.mapRow}>
         <Shaina />
         <div>
             <h3>Shaina Agbayani</h3>
-            <p>Digital Dambana</p>
+            <a href="https://www.sha.virtualgrounds.zone/" target="_blank" rel="noreferrer">Digital Dambana</a>
         </div>
       </div>
 
       <div className={componentStyles.lineRow}></div>
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.disabled)}>
+      <div className={componentStyles.mapRow}>
         <Laura />
         <div>
             <h3>Laura Nelson Hamilton</h3>
-            <p>A Letter to My Niece, Describing the World that Could Be</p>
+            <a href="https://www.laura.virtualgrounds.zone/" target="_blank" rel="noreferrer">A Letter to My Niece, Describing the World that Could Be</a>
         </div>
       </div>
 
       <div className={componentStyles.lineRow}></div>
 
-      <div className={ClassNames(componentStyles.mapRow, componentStyles.disabled)}>
+      <div className={componentStyles.mapRow}>
         <AmandaG />
         <div>
             <h3>Amanda Gutierrez Gomes</h3>
-            <p>With You in Distance (Contigo a la Distancia)</p>
+            <a href="https://www.amandag.virtualgrounds.zone/" target="_blank" rel="noreferrer">With You in Distance (Contigo a la Distancia)</a>
         </div>
       </div>
 
