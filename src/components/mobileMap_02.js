@@ -157,7 +157,7 @@ const MobileMap02 = ({ siteTitle }) => (
       <div className={ClassNames(componentStyles.mapRow, componentStyles.rightAlign, componentStyles.disabled)}>
         <div>
             <h3>Sara Kay Maston Low</h3>
-            <p>Worm’s Eye View</p>
+            <a href="http://www.sara.virtualgrounds.zone/" target="_blank" rel="noreferrer">Worm’s Eye View</a>
         </div>
         <Sara />
       </div>

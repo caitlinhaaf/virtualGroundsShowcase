@@ -63,9 +63,9 @@ const ParticipantList = () => (
                 <a href="http://www.roya.virtualgrounds.zone/" target="_blank" rel="noreferrer">BLACK_BOX</a>
             </li>
 
-            <li className={componentStyles.disabled}>
+            <li>
                 <h3>Sara Kay Maston Low</h3>
-                <p>Worm’s Eye View</p>
+                <a href="http://www.sara.virtualgrounds.zone/" target="_blank" rel="noreferrer">Worm’s Eye View</a>
             </li>
 
             <li>
